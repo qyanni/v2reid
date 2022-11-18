@@ -7,7 +7,7 @@
 
 
 ## V2ReID
-Hi all, welcome to the official repository for [V2ReID: Vision-Outlooker-Based Vehicle Re-Identification](https://www.mdpi.com/1424-8220/22/22/8651). The code and research is insprired by the authors of [VOLO](https://github.com/sail-sg/volo) and [TransReID](https://github.com/damo-cv/TransReID). I would like to express my gratitude to the authors.
+Hi all, welcome to the official repository for [V2ReID: Vision-Outlooker-Based Vehicle Re-Identification](https://www.mdpi.com/1424-8220/22/22/8651). The code and research is inspired by the authors of [VOLO](https://github.com/sail-sg/volo) and [TransReID](https://github.com/damo-cv/TransReID). I would like to express my gratitude to the authors.
 
 
 ## Getting Started
