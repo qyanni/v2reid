@@ -10,6 +10,24 @@ Hi all, welcome to the official repository for [V2ReID: Vision-Outlooker-Based V
 
 
 
-### Getting Started
-#### 1. Requirements
-#### 2. Usage
+## Getting Started
+1. Requirements
+2. Ingredients
+  - VeRi-776 data can be requested from [their webpage](https://vehiclereid.github.io/VeRi/)
+  - pretrained VOLO models can be downloaded from [their github](https://github.com/sail-sg/volo)
+  
+
+
+## Reference:
+```
+@article{qian2022v2reid,
+  title={V2ReID: Vision-Outlooker-Based Vehicle Re-Identification},
+  author={Qian, Yan and Barthelemy, Johan and Iqbal, Umair and Perez, Pascal},
+  journal={Sensors},
+  volume={22},
+  number={22},
+  pages={8651},
+  year={2022},
+  publisher={MDPI}
+}
+```
