@@ -1,0 +1,6 @@
+opencv-python
+tensorboard
+timm==0.4.5
+torch
+torchvision
+yacs
