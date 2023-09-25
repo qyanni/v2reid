@@ -7,13 +7,13 @@ _C = CN()
 # -----------------------------------------------------------------------------
 _C.MODEL = CN()
 # ID number of GPU
-_C.MODEL.DEVICE_ID = '3'
+_C.MODEL.DEVICE_ID = '0'
 # Name of the backbone (options: 'volo_d1', 'volo_d2', 'volo_d3', 'volo_d4', 'volo_d5')
 _C.MODEL.NAME = 'volo_d1'
 # Start with a pretrained version of the specified network (options: True/False)
 _C.MODEL.PRETRAINED = False
 # Path to pretrained model 
-_C.MODEL.PRETRAIN_PATH = '/home/yan/Documents/thesis/volo_o/checkpoints/d1_224_84.2.pth.tar'
+_C.MODEL.PRETRAIN_PATH = '.../checkpoints/d1_224_84.2.pth.tar'
 # Training with overlapping patches (options: True or False)
 _C.MODEL.OVERLAP = False
 # Training with batchnorm neck, layersnorm neck or none (options: 'bnneck', 'lnneck' or 'off')
@@ -127,4 +127,4 @@ _C.SOLVER.WARMUP_PRE = False
 # Misc options
 # ---------------------------------------------------------------------------- #
 # Path to checkpoint and saved log of trained model
-_C.OUTPUT_DIR = "myoutputs"
+_C.OUTPUT_DIR = "myoutputs/log_file"
