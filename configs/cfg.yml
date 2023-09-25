@@ -1,0 +1,30 @@
+MODEL:
+  DEVICE_ID:      ('0')
+  NAME:           'volo_d1'
+  PRETRAINED:      True
+  PRETRAIN_PATH:   '.../volo/checkpoints/d1_224_84.2.pth.tar'
+  NECK :           'no'
+
+
+LOSS:
+  TRIPLET_LOSS:    True
+  CENTER_LOSS:     True
+
+
+INPUT:
+  ROOT_DIR:       ('.../data')
+  SIZE_TRAIN:     [224, 224]
+  SIZE_TEST:      [224, 224]
+
+DATALOADER:
+  IMS_PER_BATCH:   256
+
+SOLVER:
+  OPTIMIZER_NAME:     SGD
+  MAX_EPOCHS:         100
+  CHECKPOINT_PERIOD:  10
+  LOG_PERIOD:         10
+  BASE_LR:            3e-4
+
+
+OUTPUT_DIR:         "myoutputs/log_name"
