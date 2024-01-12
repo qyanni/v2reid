@@ -3,7 +3,7 @@
 1. - [x]  (09 November 2022) - Paper published in [Trustworthy AI for Vehicle-to-Everything (V2X): Opportunities and Challenges](https://www.mdpi.com/journal/sensors/special_issues/Trustworthy_AI_V2X), a special issue of Sensors
 2. - [x]  (18 November 2022) - Release the code
 3. - [x]  (18 November 2022) - Add description of the code (see code_overview)
-4. - [ ] Add more details and explanations (requirements, how to run the code, etc)
+4. - [x] Add more details and explanations (requirements, how to run the code, etc)
 
 
 ## V2ReID
